@@ -32,5 +32,6 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           pull: true
+          push: true
           file: ./Dockerfile
           tags: sotojn6/node-docker:latest
