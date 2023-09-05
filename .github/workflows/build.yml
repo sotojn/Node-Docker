@@ -7,7 +7,7 @@ on:
       - "*"
 
 env:
-  REGISTRY_IMAGE: sotojn6/node-docker:v1.0.1
+  REGISTRY_IMAGE: sotojn6/node-docker
 
 jobs:
   build:
@@ -17,8 +17,6 @@ jobs:
       matrix:
         platform:
           - linux/amd64
-          - linux/arm/v6
-          - linux/arm/v7
           - linux/arm64
     steps:
       -
