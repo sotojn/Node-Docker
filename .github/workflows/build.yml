@@ -7,7 +7,7 @@ on:
       - "*"
 
 env:
-  REGISTRY_IMAGE: sotojn6/node-docker
+  REGISTRY_IMAGE: sotojn6/node-docker:v1.0.1
 
 jobs:
   build:
